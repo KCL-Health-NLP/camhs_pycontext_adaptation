@@ -1,0 +1,93 @@
+Lex	Type	Regex	Direction
+denied previous	DEFINITE_NEGATED_EXISTENCE		forward
+denies previous	DEFINITE_NEGATED_EXISTENCE		forward
+denied past	DEFINITE_NEGATED_EXISTENCE		forward
+denies past	DEFINITE_NEGATED_EXISTENCE		forward
+denied of	DEFINITE_NEGATED_EXISTENCE		forward
+denies of	DEFINITE_NEGATED_EXISTENCE		forward
+denied having	DEFINITE_NEGATED_EXISTENCE		forward
+denies history	DEFINITE_NEGATED_EXISTENCE		forward
+denies a	DEFINITE_NEGATED_EXISTENCE		forward
+denied a	DEFINITE_NEGATED_EXISTENCE		forward
+nil		DEFINITE_NEGATED_EXISTENCE		forward
+no past	DEFINITE_NEGATED_EXISTENCE		forward
+never had any	DEFINITE_NEGATED_EXISTENCE		forward
+never	DEFINITE_NEGATED_EXISTENCE		forward
+no history of	DEFINITE_NEGATED_EXISTENCE		forward
+no hx of	DEFINITE_NEGATED_EXISTENCE		forward
+no history of actual	DEFINITE_NEGATED_EXISTENCE		forward
+no history of any	DEFINITE_NEGATED_EXISTENCE		forward
+no known past history of	DEFINITE_NEGATED_EXISTENCE		forward
+no known history of	DEFINITE_NEGATED_EXISTENCE		forward
+no recorded history of	DEFINITE_NEGATED_EXISTENCE		forward
+no recent self-harm or	DEFINITE_NEGATED_EXISTENCE		forward
+no self-harm or	DEFINITE_NEGATED_EXISTENCE		forward
+no recent	DEFINITE_NEGATED_EXISTENCE		forward
+no documented history of	DEFINITE_NEGATED_EXISTENCE		forward
+no family history of	DEFINITE_NEGATED_EXISTENCE		forward
+no known history of	DEFINITE_NEGATED_EXISTENCE		forward
+no past history of	DEFINITE_NEGATED_EXISTENCE		forward
+no previous history of	DEFINITE_NEGATED_EXISTENCE		forward
+no significant history of	DEFINITE_NEGATED_EXISTENCE		forward
+no clear	DEFINITE_NEGATED_EXISTENCE		forward
+no	DEFINITE_NEGATED_EXISTENCE		forward
+risk of	DEFINITE_NEGATED_EXISTENCE		forward
+no previous	DEFINITE_NEGATED_EXISTENCE		forward
+nor is there any history of	DEFINITE_NEGATED_EXISTENCE		forward
+no attempts to'	DEFINITE_NEGATED_EXISTENCE		forward
+not expressed any	DEFINITE_NEGATED_EXISTENCE		forward
+not made any	DEFINITE_NEGATED_EXISTENCE		forward
+or	DEFINITE_NEGATED_EXISTENCE		forward
+would not	DEFINITE_NEGATED_EXISTENCE		forward
+will not	DEFINITE_NEGATED_EXISTENCE		forward
+going to	DEFINITE_NEGATED_EXISTENCE		forward
+/	DEFINITE_NEGATED_EXISTENCE		forward
+may	DEFINITE_NEGATED_EXISTENCE		forward
+Previously he attempt	DEFINITE_NEGATED_EXISTENCE		forward
+previously also attempt	DEFINITE_NEGATED_EXISTENCE		forward
+[0-9]	DEFINITE_NEGATED_EXISTENCE	[0-9]	forward
+previous attempt	DEFINITE_NEGATED_EXISTENCE		forward
+previously attempt	DEFINITE_NEGATED_EXISTENCE		forward
+attempts at self-harm	DEFINITE_NEGATED_EXISTENCE		forward
+no attempt	DEFINITE_NEGATED_EXISTENCE		forward
+not attempt	DEFINITE_NEGATED_EXISTENCE		forward
+no recent attempt	DEFINITE_NEGATED_EXISTENCE		forward
+did not attempt	DEFINITE_NEGATED_EXISTENCE		forward
+no actual	DEFINITE_NEGATED_EXISTENCE		forward
+no previous	DEFINITE_NEGATED_EXISTENCE		forward
+no suicid	DEFINITE_NEGATED_EXISTENCE		forward
+no significant attempt	DEFINITE_NEGATED_EXISTENCE		forward
+non	DEFINITE_NEGATED_EXISTENCE		forward
+no history of	DEFINITE_NEGATED_EXISTENCE		forward
+- no	DEFINITE_NEGATED_EXISTENCE		forward
+no -	DEFINITE_NEGATED_EXISTENCE		forward
+-no	DEFINITE_NEGATED_EXISTENCE		forward
+no-	DEFINITE_NEGATED_EXISTENCE		forward
+para	DEFINITE_NEGATED_EXISTENCE		forward
+after	CONJ		terminate
+although	CONJ		terminate
+as	CONJ		terminate
+because	CONJ		terminate
+before	CONJ		terminate
+even if	CONJ		terminate
+even though	CONJ		terminate
+if	CONJ		terminate
+in order that	CONJ		terminate
+once	CONJ		terminate
+provided that	CONJ		terminate
+rather than	CONJ		terminate
+since	CONJ		terminate
+so that	CONJ		terminate
+than	CONJ		terminate
+that	CONJ		terminate
+though	CONJ		terminate
+unless	CONJ		terminate
+until	CONJ		terminate
+when	CONJ		terminate
+whenever	CONJ		terminate
+where	CONJ		terminate
+whereas	CONJ		terminate
+wherever	CONJ		terminate
+whether	CONJ		terminate
+while	CONJ		terminate
+why	CONJ		terminate

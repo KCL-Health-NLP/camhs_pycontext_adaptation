@@ -1,0 +1,45 @@
+Lex	Type	Regex	Direction
+no	DEFINITE_NEGATED_EXISTENCE		bidirectional
+without	DEFINITE_NEGATED_EXISTENCE		bidirectional
+nil	DEFINITE_NEGATED_EXISTENCE		bidirectional
+not	DEFINITE_NEGATED_EXISTENCE		bidirectional
+n't	DEFINITE_NEGATED_EXISTENCE		bidirectional
+never	DEFINITE_NEGATED_EXISTENCE		bidirectional
+none	DEFINITE_NEGATED_EXISTENCE		bidirectional
+neith	DEFINITE_NEGATED_EXISTENCE		bidirectional
+nor	DEFINITE_NEGATED_EXISTENCE		bidirectional
+denied	DEFINITE_NEGATED_EXISTENCE		forward
+denies	DEFINITE_NEGATED_EXISTENCE		forward
+deny	DEFINITE_NEGATED_EXISTENCE		forward
+denying	DEFINITE_NEGATED_EXISTENCE		forward
+reject	DEFINITE_NEGATED_EXISTENCE	reject*	forward
+subside	DEFINITE_NEGATED_EXISTENCE	subsid*	forward
+retract	DEFINITE_NEGATED_EXISTENCE	retract*	forward
+non	DEFINITE_NEGATED_EXISTENCE		forward
+after	CONJ		terminate
+although	CONJ		terminate
+as	CONJ		terminate
+because	CONJ		terminate
+before	CONJ		terminate
+even if	CONJ		terminate
+even though	CONJ		terminate
+if	CONJ		terminate
+in order that	CONJ		terminate
+once	CONJ		terminate
+provided that	CONJ		terminate
+rather than	CONJ		terminate
+since	CONJ		terminate
+so that	CONJ		terminate
+than	CONJ		terminate
+that	CONJ		terminate
+though	CONJ		terminate
+unless	CONJ		terminate
+until	CONJ		terminate
+when	CONJ		terminate
+whenever	CONJ		terminate
+where	CONJ		terminate
+whereas	CONJ		terminate
+wherever	CONJ		terminate
+whether	CONJ		terminate
+while	CONJ		terminate
+why	CONJ		terminate

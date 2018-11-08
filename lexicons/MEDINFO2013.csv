@@ -1,0 +1,561 @@
+ITEM	CATEGORY	EN RegEx	EN (SV) ACTION
+asserted as	definiteExistence		forward
+definite	definiteExistence		forward
+doubtless	definiteExistence		forward
+evident	definiteExistence		forward
+hence	definiteExistence		forward
+obvious	definiteExistence		forward
+positive examination for	definiteExistence		forward
+positive study for	definiteExistence		forward
+seen as	definiteExistence		forward
+without doubt	definiteExistence		bidirectional
+adequate to rule the patient out against	DEFINITE_NEGATED_EXISTENCE		forward
+are ruled out	DEFINITE_NEGATED_EXISTENCE		backward
+being ruled out	DEFINITE_NEGATED_EXISTENCE		backward
+can be ruled out	DEFINITE_NEGATED_EXISTENCE		backward
+can rule him out	DEFINITE_NEGATED_EXISTENCE		forward
+can rule him out against	DEFINITE_NEGATED_EXISTENCE	"r""""""can\srule\s(her|him)\sout\sagainst"""""""	forward
+can rule out	DEFINITE_NEGATED_EXISTENCE		forward
+can rule out against	DEFINITE_NEGATED_EXISTENCE		forward
+can rule the patient out against	DEFINITE_NEGATED_EXISTENCE	"r""""""can\srule\s(her|him)\sout\sagainst"""""""	forward
+cannot	DEFINITE_NEGATED_EXISTENCE		forward
+cleared of	DEFINITE_NEGATED_EXISTENCE		forward
+declined	DEFINITE_NEGATED_EXISTENCE		forward
+declines	DEFINITE_NEGATED_EXISTENCE		forward
+denied	DEFINITE_NEGATED_EXISTENCE		forward
+denies	DEFINITE_NEGATED_EXISTENCE		forward
+deny	DEFINITE_NEGATED_EXISTENCE		forward
+did rule her out	DEFINITE_NEGATED_EXISTENCE		forward
+did rule her out against	DEFINITE_NEGATED_EXISTENCE		forward
+did rule her out for	DEFINITE_NEGATED_EXISTENCE		forward
+did rule him out	DEFINITE_NEGATED_EXISTENCE		forward
+did rule him out against	DEFINITE_NEGATED_EXISTENCE		forward
+did rule him out for	DEFINITE_NEGATED_EXISTENCE		forward
+did rule out	DEFINITE_NEGATED_EXISTENCE		forward
+did rule out against	DEFINITE_NEGATED_EXISTENCE		forward
+did rule out for	DEFINITE_NEGATED_EXISTENCE		forward
+did rule the patient out	DEFINITE_NEGATED_EXISTENCE		forward
+did rule the patient out against	DEFINITE_NEGATED_EXISTENCE		forward
+did rule the patient out for	DEFINITE_NEGATED_EXISTENCE		forward
+excluded	DEFINITE_NEGATED_EXISTENCE		bidirectional
+free	DEFINITE_NEGATED_EXISTENCE		bidirectional
+free of	DEFINITE_NEGATED_EXISTENCE		forward
+has been ruled out	DEFINITE_NEGATED_EXISTENCE		backward
+have been ruled out	DEFINITE_NEGATED_EXISTENCE		backward
+is absent	DEFINITE_NEGATED_EXISTENCE		backward
+is negative	DEFINITE_NEGATED_EXISTENCE	"r""(is|was) negative"""	backward
+is ruled out	DEFINITE_NEGATED_EXISTENCE		backward
+negative examination for	DEFINITE_NEGATED_EXISTENCE	"r""negative (examination|study|exam|evaluation) for"""	forward
+negative for	DEFINITE_NEGATED_EXISTENCE		forward
+neither	DEFINITE_NEGATED_EXISTENCE		forward
+never developed	DEFINITE_NEGATED_EXISTENCE		forward
+never had	DEFINITE_NEGATED_EXISTENCE		forward
+no	DEFINITE_NEGATED_EXISTENCE	"r""\bno\b"""	forward
+no evidence	DEFINITE_NEGATED_EXISTENCE		forward
+no new	DEFINITE_NEGATED_EXISTENCE		forward
+no other	DEFINITE_NEGATED_EXISTENCE	"r""""""no[\s]*other"""""""	forward
+no support for	DEFINITE_NEGATED_EXISTENCE		forward
+no suspicion of	DEFINITE_NEGATED_EXISTENCE		forward
+not	DEFINITE_NEGATED_EXISTENCE	"r""\bnot\b"""	forward
+not exhibit	DEFINITE_NEGATED_EXISTENCE		forward
+not had	DEFINITE_NEGATED_EXISTENCE		forward
+not have	DEFINITE_NEGATED_EXISTENCE		forward
+not seen	DEFINITE_NEGATED_EXISTENCE		backward
+nothing	DEFINITE_NEGATED_EXISTENCE		forward
+patient was not	DEFINITE_NEGATED_EXISTENCE		forward
+reject	DEFINITE_NEGATED_EXISTENCE		forward
+rejected	DEFINITE_NEGATED_EXISTENCE		forward
+resolved	DEFINITE_NEGATED_EXISTENCE		backward
+ruled her out	DEFINITE_NEGATED_EXISTENCE		forward
+ruled her out against	DEFINITE_NEGATED_EXISTENCE	"""""ruled\s(him|her)\sout\sagainst"""""	forward
+ruled her out for	DEFINITE_NEGATED_EXISTENCE		forward
+ruled him out	DEFINITE_NEGATED_EXISTENCE		forward
+ruled him out against	DEFINITE_NEGATED_EXISTENCE		forward
+ruled him out for	DEFINITE_NEGATED_EXISTENCE		forward
+ruled out	DEFINITE_NEGATED_EXISTENCE		forward
+ruled out against	DEFINITE_NEGATED_EXISTENCE		forward
+ruled out for	DEFINITE_NEGATED_EXISTENCE		forward
+ruled the patient out	DEFINITE_NEGATED_EXISTENCE		forward
+ruled the patient out against	DEFINITE_NEGATED_EXISTENCE		forward
+ruled the patient out for	DEFINITE_NEGATED_EXISTENCE		forward
+rules her out	DEFINITE_NEGATED_EXISTENCE		forward
+rules her out for	DEFINITE_NEGATED_EXISTENCE	"r""""""rules\s(him|her)\sout\sfor"""""""	forward
+rules him out	DEFINITE_NEGATED_EXISTENCE	"r""""""rules\s(him|her)\sout"""""""	forward
+rules him out for	DEFINITE_NEGATED_EXISTENCE	"r""""""rules\s(him|her)\sout\sfor"""""""	forward
+rules out	DEFINITE_NEGATED_EXISTENCE		forward
+rules out for	DEFINITE_NEGATED_EXISTENCE		forward
+rules the patient out	DEFINITE_NEGATED_EXISTENCE		forward
+rules the patient out for	DEFINITE_NEGATED_EXISTENCE		forward
+was ruled out	DEFINITE_NEGATED_EXISTENCE		backward
+with no	DEFINITE_NEGATED_EXISTENCE		forward
+without	DEFINITE_NEGATED_EXISTENCE		forward
+aunt	experiencer		forward
+aunt's	experiencer		forward
+brother	experiencer		forward
+brother's	experiencer		forward
+dad	experiencer		forward
+dad's	experiencer		forward
+family history	experiencer		forward
+father's	experiencer		forward
+grandfather	experiencer		forward
+grandfather's	experiencer		forward
+grandmother	experiencer		forward
+grandmother's	experiencer		forward
+husband	experiencer		forward
+husband's	experiencer		forward
+mom	experiencer		forward
+mom's	experiencer		forward
+mother's	experiencer		forward
+roommate	experiencer		forward
+roommate's	experiencer		forward
+sister	experiencer		forward
+sister's	experiencer		forward
+uncle	experiencer		forward
+uncle's	experiencer		forward
+wife	experiencer		forward
+wife's	experiencer		forward
+as needed	future		forward
+at risk for	future	"r""""""at\srisk\s(in\sthe\sfuture\s)?for"""""""	forward
+call	future		forward
+come back for	future		forward
+come back to	future		forward
+if	future		forward
+if clinical concern for	future	"r""""""if\sclinical\s(concern|suspicion)\sfor"""""""	forward
+if there is concern for	future		forward
+look out for	future		forward
+return	future		forward
+returning	future		forward
+should he	future		forward
+should she	future		forward
+should the	future		forward
+should there	future		forward
+again noted	historical		bidirectional
+change in	historical		forward
+changing	historical		forward
+chronic	historical		forward
+clinical history	historical		forward
+decrease in	historical		forward
+diminished	historical		bidirectional
+documented	historical		forward
+evolving	historical		bidirectional
+experiences	historical		forward
+family history of	historical		forward
+healing	historical	"r""\b(healing|healed)\b"""	bidirectional
+history	historical		forward
+in the past for	historical		forward
+interval change	historical		bidirectional
+known to have	historical		forward
+old	historical		bidirectional
+persistent	historical		bidirectional
+pre-existing	historical		forward
+previous	historical		forward
+prior	historical		bidirectional
+prior study	historical		bidirectional
+progression of	historical	"r""""""progression\s(of|in)"""""""	forward
+redemonstration of	historical		forward
+resolution of	historical		forward
+resolved	historical		backward
+resolving	historical		forward
+s/p	historical		forward
+sequelae of	historical		forward
+status post	historical		forward
+subacute	historical		forward
+unchanged	historical		bidirectional
+assessment for	indication		forward
+be ruled out	indication		backward
+be ruled out for	indication		forward
+checked for	indication		forward
+evaluate	indication		forward
+evaluate for	indication		forward
+evaluation	indication		bidirectional
+examination	indication	"r""\b(examination|exam|study)\b"""	bidirectional
+investigate	indication		forward
+investigation	indication		forward
+is more sensitive	indication	"r""""""is more sensitive"""""""	forward
+is to be ruled out	indication		backward
+is to be ruled out for	indication		backward
+may be ruled out	indication		backward
+may be ruled out for	indication		forward
+might be ruled out	indication		backward
+might be ruled out for	indication		forward
+must be ruled out	indication		backward
+must be ruled out for	indication		forward
+not been ruled out	indication		bidirectional
+ought to be ruled out	indication		backward
+ought to be ruled out for	indication		forward
+protocol	indication		backward
+question	indication		forward
+risk factors for	indication		forward
+rule her out	indication		forward
+rule him out	indication		forward
+rule him out for	indication		forward
+rule out	indication	"r""(r/o|rule out|\br o\b|r\.o\.|\bro\b)"""	forward
+rule out for	indication		forward
+rule patient out for	indication	"r""rule (him|her|patient|the patient|subject) out for"""	forward
+rule the patient out	indication		forward
+rule the patient out for	indication		forward
+should be ruled out	indication		backward
+should be ruled out for	indication		forward
+study for detection	indication		forward
+to exclude	indication		forward
+what must be ruled out is	indication		forward
+will be ruled out	indication		backward
+will be ruled out for	indication		forward
+acts as	probableExistence		forward
+and/or	probableExistence		bidirectional
+apparent	probableExistence		forward
+apparently	probableExistence		forward
+appear	probableExistence	"""""\bappear\b"""""	forward
+appearing	probableExistence		bidirectional
+appears	probableExistence		forward
+assume	probableExistence		forward
+assuming	probableExistence		forward
+believe	probableExistence		forward
+but rather	probableExistence		forward
+can	probableExistence		forward
+can be	probableExistence		forward
+clinical picture as in	probableExistence		forward
+clinical picture in line with	probableExistence		forward
+clinical suspicion of	probableExistence		forward
+compatible with	probableExistence		forward
+conceivable	probableExistence		forward
+concerning for	probableExistence		forward
+consider	probableExistence		forward
+considerations	probableExistence		bidirectional
+considerations include	probableExistence		forward
+consistent with	probableExistence		forward
+convincing	probableExistence		bidirectional
+could	probableExistence		forward
+could be	probableExistence		forward
+differential diagnosis would include	probableExistence	"r""differential\s((diagnosis|considerations)\s)?((would|could)\sinclud[a-z]*)?"""	forward
+eventual	probableExistence		forward
+everything pointing at	probableExistence		forward
+evidence	probableExistence		forward
+favor	probableExistence		forward
+feels like	probableExistence		forward
+felt	probableExistence		forward
+guess	probableExistence		forward
+I believe	probableExistence		forward
+identified	probableExistence		bidirectional
+implied	probableExistence		bidirectional
+implies	probableExistence		forward
+in line with	probableExistence		forward
+indicate	probableExistence		forward
+indicated	probableExistence		bidirectional
+indicates	probableExistence		forward
+interpreted as	probableExistence		forward
+is in the differential	probableExistence	"r""is\sin\sthe\sdifferential"""	backward
+is understood as	probableExistence		forward
+likely	probableExistence		bidirectional
+looks like	probableExistence		forward
+may	probableExistence		forward
+may be	probableExistence		forward
+may represent	probableExistence	"r""""""(may|might)\srepresent"""""""	forward
+not certain	probableExistence		forward
+not exclude	probableExistence		forward
+not excluded	probableExistence	"r""""""not\s(excluded|ruled\sout)"""""""	bidirectional
+not improbable	probableExistence		bidirectional
+not sure	probableExistence		forward
+noted	probableExistence		bidirectional
+or	probableExistence		forward
+perceived as	probableExistence		forward
+perhaps	probableExistence		forward
+points to	probableExistence		forward
+possible	probableExistence		forward
+possibly	probableExistence		forward
+potential	probableExistence		forward
+preliminary	probableExistence		bidirectional
+presumably	probableExistence		forward
+presumed	probableExistence		forward
+presumptive	probableExistence		forward
+probable	probableExistence		forward
+probable cause	probableExistence		forward
+probably	probableExistence		forward
+question	probableExistence		forward
+questionable	probableExistence		bidirectional
+raise the question of	probableExistence		forward
+raises question of	probableExistence		forward
+raises the question of	probableExistence		forward
+raising the possibility of	probableExistence		forward
+raising the question of	probableExistence		forward
+reasonable	probableExistence		forward
+reportedly	probableExistence		bidirectional
+representing	probableExistence		forward
+represents	probableExistence		forward
+seems like	probableExistence		forward
+seen	probableExistence	"r""(seen|visualized|observed)"""	backward
+seen best	probableExistence		backward
+should	probableExistence		forward
+should be considered	probableExistence		bidirectional
+signs of	probableExistence		forward
+somewhat suspected	probableExistence		backward
+speaks for	probableExistence		forward
+strong suspicion	probableExistence		forward
+suggest	probableExistence	"r""""""\bsuggest\b"""""""	forward
+suggested	probableExistence		bidirectional
+suggestion	probableExistence		forward
+suggestive	probableExistence		forward
+suggests	probableExistence	"r""""""\bsuggests\b"""""""	forward
+supporting	probableExistence		forward
+suppose	probableExistence		forward
+suspect	probableExistence		forward
+suspected	probableExistence		bidirectional
+suspicion	probableExistence		forward
+suspicion for	probableExistence		forward
+suspicious	probableExistence		forward
+the possibility	probableExistence		forward
+thought	probableExistence		forward
+unclear	probableExistence		forward
+unsure	probableExistence		forward
+was seen as	probableExistence		forward
+whether	probableExistence		forward
+worrisome	probableExistence		forward
+would	probableExistence		forward
+absence of	probableNegatedExistence		forward
+adequate to rule her out	probableNegatedExistence		forward
+adequate to rule her out for	probableNegatedExistence	"r""""""adequate\sto\srule\s(her|him)\sout\sfor"""""""	forward
+adequate to rule him out	probableNegatedExistence		forward
+adequate to rule him out for	probableNegatedExistence		forward
+adequate to rule out	probableNegatedExistence		forward
+adequate to rule out for	probableNegatedExistence		forward
+adequate to rule the patient out	probableNegatedExistence		forward
+adequate to rule the patient out for	probableNegatedExistence		forward
+can rule her out	probableNegatedExistence		forward
+can rule her out against	probableNegatedExistence	"r""""""can\srule\s(her|him)\sout\sagainst"""""""	forward
+can rule her out for	probableNegatedExistence		forward
+can rule him out for	probableNegatedExistence		forward
+can rule out for	probableNegatedExistence		forward
+can rule the patient out	probableNegatedExistence		forward
+can rule the patient out for	probableNegatedExistence		forward
+cannot be excluded	probableNegatedExistence	"r""""""(cannot|can\snot)\sbe\sexcluded"""""""	backward
+cannot exclude	probableNegatedExistence	"r""cannot\sexclude"""	forward
+cannot see	probableNegatedExistence		forward
+could be ruled out	probableNegatedExistence		bidirectional
+could not exclude	probableNegatedExistence		forward
+denying	probableNegatedExistence		forward
+do not think these findings speak for	probableNegatedExistence		forward
+doubt	probableNegatedExistence		forward
+doubtful	probableNegatedExistence		bidirectional
+exclude	probableNegatedExistence		forward
+fails to reveal	probableNegatedExistence		forward
+is not excluded	probableNegatedExistence	"r""""""(is|was|are|were)\snot\sexcluded"""""""	backward
+is not indicated	probableNegatedExistence		backward
+low probability	probableNegatedExistence		forward
+no abnormal	probableNegatedExistence		forward
+no cause of	probableNegatedExistence		forward
+no complaints of	probableNegatedExistence		forward
+no definite	probableNegatedExistence	"r""""""no[\s]*definite"""""""	forward
+no demonstrated	probableNegatedExistence		forward
+no findings of	probableNegatedExistence		forward
+no findings to indicate	probableNegatedExistence		forward
+no grounds for	probableNegatedExistence		forward
+no indication of	probableNegatedExistence		forward
+no obvious	probableNegatedExistence		forward
+no sign of	probableNegatedExistence		forward
+no significant	probableNegatedExistence		forward
+no signs of	probableNegatedExistence		forward
+no suggestion of	probableNegatedExistence		forward
+no sure	probableNegatedExistence		forward
+not a sure	probableNegatedExistence		forward
+not appreciate	probableNegatedExistence		forward
+not associated with	probableNegatedExistence		forward
+not complain of	probableNegatedExistence		forward
+not demonstrate	probableNegatedExistence		forward
+not feel	probableNegatedExistence		forward
+not know of	probableNegatedExistence		forward
+not known to have	probableNegatedExistence		forward
+not reveal	probableNegatedExistence		forward
+not ruled out	probableNegatedExistence		backward
+not see	probableNegatedExistence		forward
+not think	probableNegatedExistence		forward
+not to be	probableNegatedExistence		forward
+rather than	probableNegatedExistence		forward
+sufficient to rule her out	probableNegatedExistence		forward
+sufficient to rule her out against	probableNegatedExistence		forward
+sufficient to rule her out for	probableNegatedExistence	"r""""""sufficient\sto\srule\s(her|him)\sout\sfor"""""""	forward
+sufficient to rule him out	probableNegatedExistence		forward
+sufficient to rule him out against	probableNegatedExistence	"r""""""sufficient\sto\srule\s(him|her)\sout\sagainst"""""""	forward
+sufficient to rule him out for	probableNegatedExistence		forward
+sufficient to rule out	probableNegatedExistence		forward
+sufficient to rule out against	probableNegatedExistence		forward
+sufficient to rule out for	probableNegatedExistence		forward
+sufficient to rule the patient out	probableNegatedExistence		forward
+sufficient to rule the patient out against	probableNegatedExistence		forward
+sufficient to rule the patient out for	probableNegatedExistence		forward
+test for	probableNegatedExistence		forward
+to exclude	probableNegatedExistence		forward
+unable to adequately assess	probableNegatedExistence		forward
+unable to assess	probableNegatedExistence		forward
+unlikely	probableNegatedExistence		backward
+unremarkable for	probableNegatedExistence		forward
+very little that speaks for	probableNegatedExistence		forward
+without indication of	probableNegatedExistence		forward
+without sign of	probableNegatedExistence		forward
+by her husband	pseudoExperiencer		forward
+by his wife	pseudoExperiencer		forward
+if negative	pseudoFuture		forward
+know if	pseudoFuture		forward
+clinical history	pseudoHistorical		forward
+day history of	pseudoHistorical		forward
+detailed history	pseudoHistorical		forward
+history and	pseudoHistorical		forward
+history and examination	pseudoHistorical		forward
+history and physical	pseudoHistorical		forward
+history from	pseudoHistorical		forward
+history of chief complaint	pseudoHistorical		forward
+history of present illness	pseudoHistorical		forward
+history taking	pseudoHistorical		forward
+"history	 and"	pseudoHistorical		forward
+"history	 physical"	pseudoHistorical		forward
+patient history	pseudoHistorical		forward
+poor history	pseudoHistorical		forward
+social history	pseudoHistorical		forward
+gram negative	pseudoNegation		forward
+no change	pseudoNegation		forward
+no definite change	pseudoNegation		forward
+no increase	pseudoNegation		forward
+no significant change	pseudoNegation		forward
+no significant interval change	pseudoNegation		forward
+no suspicious change	pseudoNegation		forward
+not cause	pseudoNegation		forward
+not drain	pseudoNegation		forward
+not extend	pseudoNegation		forward
+not necessarily	pseudoNegation		forward
+not only	pseudoNegation		forward
+positive study for	pseudoNegation	"r""positive (study|exam|examination)( for)"""	forward
+without difficulty	pseudoNegation		forward
+difficult to assess	uncertain		forward
+either	uncertain		forward
+equivocal	uncertain		bidirectional
+uncertain	uncertain		forward
+versus	uncertain		bidirectional
+although			terminate
+apart from			terminate
+as a cause for			terminate
+as a cause of			terminate
+as a reason for			terminate
+as a reason of			terminate
+as a secondary cause for			terminate
+as a secondary cause of			terminate
+as a secondary etiology for			terminate
+as a secondary etiology of			terminate
+as a secondary origin for			terminate
+as a secondary origin of			terminate
+as a secondary reason for			terminate
+as a secondary reason of			terminate
+as a secondary source for			terminate
+as a secondary source of			terminate
+as a source for			terminate
+as a source of			terminate
+as an cause for			terminate
+as an cause of			terminate
+as an etiology for			terminate
+as an etiology for			terminate
+as an etiology of			terminate
+as an etiology of			terminate
+as an origin for			terminate
+as an origin of			terminate
+as an reason for			terminate
+as an reason of			terminate
+as an secondary cause for			terminate
+as an secondary cause of			terminate
+as an secondary etiology for			terminate
+as an secondary etiology of			terminate
+as an secondary origin for			terminate
+as an secondary origin of			terminate
+as an secondary reason for			terminate
+as an secondary reason of			terminate
+as an secondary source for			terminate
+as an secondary source of			terminate
+as an source for			terminate
+as an source of			terminate
+as the cause for			terminate
+as the cause of			terminate
+as the etiology for			terminate
+as the etiology of			terminate
+as the origin for			terminate
+as the origin of			terminate
+as the reason for			terminate
+as the reason of			terminate
+as the secondary cause for			terminate
+as the secondary cause of			terminate
+as the secondary etiology for			terminate
+as the secondary etiology of			terminate
+as the secondary origin for			terminate
+as the secondary origin of			terminate
+as the secondary reason for			terminate
+as the secondary reason of			terminate
+as the secondary source for			terminate
+as the secondary source of			terminate
+as the source for			terminate
+as the source of			terminate
+aside from			terminate
+because			terminate
+but			terminate
+cause for			terminate
+cause of			terminate
+causes for			terminate
+causes of			terminate
+comes in with			terminate
+coming in with			terminate
+complaining			terminate
+complains			terminate
+currently			terminate
+ED			terminate
+emergency department			terminate
+etiology for			terminate
+etiology of			terminate
+except			terminate
+for this reason			terminate
+her			terminate
+his			terminate
+however			terminate
+involving			terminate
+nevertheless			terminate
+noted			terminate
+origin for			terminate
+origin of			terminate
+origins for			terminate
+origins of			terminate
+other possibilities of			terminate
+patient			terminate
+patient's			terminate
+presented			terminate
+presenting			terminate
+presents			terminate
+reason for			terminate
+reason of			terminate
+reasons for			terminate
+reasons of			terminate
+recent			terminate
+reported			terminate
+reports			terminate
+secondary to			terminate
+since			terminate
+source for			terminate
+source of			terminate
+sources for			terminate
+sources of			terminate
+stated			terminate
+states			terminate
+still			terminate
+sudden onset of			terminate
+though			terminate
+today			terminate
+trigger event for			terminate
+was found			terminate
+which			terminate
+who			terminate
+with			terminate
+yet			terminate
+did not rule out	pseudoNegation		forward
+no evidence to suggest	DEFINITE_NEGATED_EXISTENCE		forward
+no interval change	DEFINITE_NEGATED_EXISTENCE		forward
+no mammographic evidence of	DEFINITE_NEGATED_EXISTENCE		forward
+no new evidence	DEFINITE_NEGATED_EXISTENCE		forward
+no other evidence	DEFINITE_NEGATED_EXISTENCE		forward
+no radiographic evidence of	DEFINITE_NEGATED_EXISTENCE		forward
+not appear	probableNegatedExistence		backward
+ro			bidirectional
+without any evidence of	DEFINITE_NEGATED_EXISTENCE		forward
+without evidence	DEFINITE_NEGATED_EXISTENCE		forward

@@ -1,0 +1,249 @@
+ITEM	CATEGORY	EN RegEx	EN (SV) ACTION
+no evidence to suggest	DEFINITE_NEGATED_EXISTENCE		forward
+no interval change	DEFINITE_NEGATED_EXISTENCE		forward
+no mammographic evidence of	DEFINITE_NEGATED_EXISTENCE		forward
+no new evidence	DEFINITE_NEGATED_EXISTENCE		forward
+no other evidence	DEFINITE_NEGATED_EXISTENCE		forward
+no radiographic evidence of	DEFINITE_NEGATED_EXISTENCE		forward
+not appear	probableNegatedExistence		backward
+without any evidence of	DEFINITE_NEGATED_EXISTENCE		forward
+without evidence	DEFINITE_NEGATED_EXISTENCE		forward
+none	DEFINITE_NEGATED_EXISTENCE		backward
+are ruled out	DEFINITE_NEGATED_EXISTENCE		backward
+being ruled out	DEFINITE_NEGATED_EXISTENCE		backward
+can be ruled out	DEFINITE_NEGATED_EXISTENCE		backward
+can rule him out	DEFINITE_NEGATED_EXISTENCE		forward
+can rule him out against	DEFINITE_NEGATED_EXISTENCE	can\srule\s(her|him)\sout\sagainst	forward
+can rule out	DEFINITE_NEGATED_EXISTENCE		forward
+cannot	DEFINITE_NEGATED_EXISTENCE		forward
+cleared of	DEFINITE_NEGATED_EXISTENCE		forward
+declined	DEFINITE_NEGATED_EXISTENCE		forward
+declines	DEFINITE_NEGATED_EXISTENCE		forward
+denied	DEFINITE_NEGATED_EXISTENCE		forward
+denies	DEFINITE_NEGATED_EXISTENCE		forward
+deny	DEFINITE_NEGATED_EXISTENCE		forward
+excluded	DEFINITE_NEGATED_EXISTENCE		bidirectional
+free	DEFINITE_NEGATED_EXISTENCE		bidirectional
+free of	DEFINITE_NEGATED_EXISTENCE		forward
+has been ruled out	DEFINITE_NEGATED_EXISTENCE		backward
+have been ruled out	DEFINITE_NEGATED_EXISTENCE		backward
+is absent	DEFINITE_NEGATED_EXISTENCE		backward
+is negative	DEFINITE_NEGATED_EXISTENCE	(is|was) negative	backward
+is ruled out	DEFINITE_NEGATED_EXISTENCE		backward
+negative examination for	DEFINITE_NEGATED_EXISTENCE	negative (examination|study|exam|evaluation) for	forward
+negative for	DEFINITE_NEGATED_EXISTENCE		forward
+neither	DEFINITE_NEGATED_EXISTENCE		forward
+never developed	DEFINITE_NEGATED_EXISTENCE		forward
+never had	DEFINITE_NEGATED_EXISTENCE		forward
+no	DEFINITE_NEGATED_EXISTENCE	\bno\b	forward
+no evidence	DEFINITE_NEGATED_EXISTENCE		forward
+no new	DEFINITE_NEGATED_EXISTENCE		forward
+no other	DEFINITE_NEGATED_EXISTENCE	no[\s]*other	forward
+no support for	DEFINITE_NEGATED_EXISTENCE		forward
+no suspicion of	DEFINITE_NEGATED_EXISTENCE		forward
+not	DEFINITE_NEGATED_EXISTENCE	\bnot\b	forward
+not exhibit	DEFINITE_NEGATED_EXISTENCE		forward
+not had	DEFINITE_NEGATED_EXISTENCE		forward
+not have	DEFINITE_NEGATED_EXISTENCE		forward
+not seen	DEFINITE_NEGATED_EXISTENCE		backward
+nothing	DEFINITE_NEGATED_EXISTENCE		forward
+patient was not	DEFINITE_NEGATED_EXISTENCE		forward
+reject	DEFINITE_NEGATED_EXISTENCE		forward
+rejected	DEFINITE_NEGATED_EXISTENCE		forward
+resolved	DEFINITE_NEGATED_EXISTENCE		backward
+ruled her out	DEFINITE_NEGATED_EXISTENCE		forward
+ruled her out against	DEFINITE_NEGATED_EXISTENCE	ruled\s(him|her)\sout\sagainst	forward
+ruled her out for	DEFINITE_NEGATED_EXISTENCE		forward
+ruled him out	DEFINITE_NEGATED_EXISTENCE		forward
+ruled him out against	DEFINITE_NEGATED_EXISTENCE		forward
+ruled him out for	DEFINITE_NEGATED_EXISTENCE		forward
+ruled out	DEFINITE_NEGATED_EXISTENCE		forward
+ruled out against	DEFINITE_NEGATED_EXISTENCE		forward
+ruled out for	DEFINITE_NEGATED_EXISTENCE		forward
+ruled the patient out	DEFINITE_NEGATED_EXISTENCE		forward
+ruled the patient out against	DEFINITE_NEGATED_EXISTENCE		forward
+ruled the patient out for	DEFINITE_NEGATED_EXISTENCE		forward
+rules her out	DEFINITE_NEGATED_EXISTENCE		forward
+rules her out for	DEFINITE_NEGATED_EXISTENCE	rules\s(him|her)\sout\sfor	forward
+rules him out	DEFINITE_NEGATED_EXISTENCE	rules\s(him|her)\sout	forward
+rules him out for	DEFINITE_NEGATED_EXISTENCE	rules\s(him|her)\sout\sfor	forward
+rules out	DEFINITE_NEGATED_EXISTENCE		forward
+rules out for	DEFINITE_NEGATED_EXISTENCE		forward
+rules the patient out	DEFINITE_NEGATED_EXISTENCE		forward
+rules the patient out for	DEFINITE_NEGATED_EXISTENCE		forward
+was ruled out	DEFINITE_NEGATED_EXISTENCE		backward
+with no	DEFINITE_NEGATED_EXISTENCE		forward
+without	DEFINITE_NEGATED_EXISTENCE		forward
+doesnt	DEFINITE_NEGATED_EXISTENCE		forward
+doesn't	DEFINITE_NEGATED_EXISTENCE		forward
+never	DEFINITE_NEGATED_EXISTENCE		forward
+aunt	experiencer		forward
+aunt's	experiencer		forward
+brother	experiencer		forward
+brother's	experiencer		forward
+dad	experiencer		forward
+dad's	experiencer		forward
+family history	experiencer		forward
+father's	experiencer		forward
+grandfather	experiencer		forward
+grandfather's	experiencer		forward
+grandmother	experiencer		forward
+grandmother's	experiencer		forward
+husband	experiencer		forward
+husband's	experiencer		forward
+mom	experiencer		forward
+mom's	experiencer		forward
+mother's	experiencer		forward
+roommate	experiencer		forward
+roommate's	experiencer		forward
+sister	experiencer		forward
+sister's	experiencer		forward
+uncle	experiencer		forward
+uncle's	experiencer		forward
+wife	experiencer		forward
+wife's	experiencer		forward
+cousin	experiencer		forward
+friend	experiencer		forward
+gram negative	pseudoNegation		forward
+no change	pseudoNegation		forward
+no definite change	pseudoNegation		forward
+no increase	pseudoNegation		forward
+no significant change	pseudoNegation		forward
+no significant interval change	pseudoNegation		forward
+no suspicious change	pseudoNegation		forward
+not cause	pseudoNegation		forward
+not drain	pseudoNegation		forward
+not extend	pseudoNegation		forward
+not necessarily	pseudoNegation		forward
+not only	pseudoNegation		forward
+positive study for	pseudoNegation	positive (study|exam|examination)( for)	forward
+without difficulty	pseudoNegation		forward
+did not rule out	pseudoNegation		forward
+life not worth living	pseudoNegation	\blife.*? not .*?worth .*?living	forward
+although			terminate
+apart from			terminate
+as a cause for			terminate
+as a cause of			terminate
+as a reason for			terminate
+as a reason of			terminate
+as a secondary cause for			terminate
+as a secondary cause of			terminate
+as a secondary etiology for			terminate
+as a secondary etiology of			terminate
+as a secondary origin for			terminate
+as a secondary origin of			terminate
+as a secondary reason for			terminate
+as a secondary reason of			terminate
+as a secondary source for			terminate
+as a secondary source of			terminate
+as a source for			terminate
+as a source of			terminate
+as an cause for			terminate
+as an cause of			terminate
+as an etiology for			terminate
+as an etiology for			terminate
+as an etiology of			terminate
+as an etiology of			terminate
+as an origin for			terminate
+as an origin of			terminate
+as an reason for			terminate
+as an reason of			terminate
+as an secondary cause for			terminate
+as an secondary cause of			terminate
+as an secondary etiology for			terminate
+as an secondary etiology of			terminate
+as an secondary origin for			terminate
+as an secondary origin of			terminate
+as an secondary reason for			terminate
+as an secondary reason of			terminate
+as an secondary source for			terminate
+as an secondary source of			terminate
+as an source for			terminate
+as an source of			terminate
+as the cause for			terminate
+as the cause of			terminate
+as the etiology for			terminate
+as the etiology of			terminate
+as the origin for			terminate
+as the origin of			terminate
+as the reason for			terminate
+as the reason of			terminate
+as the secondary cause for			terminate
+as the secondary cause of			terminate
+as the secondary etiology for			terminate
+as the secondary etiology of			terminate
+as the secondary origin for			terminate
+as the secondary origin of			terminate
+as the secondary reason for			terminate
+as the secondary reason of			terminate
+as the secondary source for			terminate
+as the secondary source of			terminate
+as the source for			terminate
+as the source of			terminate
+aside from			terminate
+because			terminate
+but			terminate
+cause for			terminate
+cause of			terminate
+causes for			terminate
+causes of			terminate
+comes in with			terminate
+coming in with			terminate
+complaining			terminate
+complains			terminate
+currently			terminate
+ED			terminate
+emergency department			terminate
+etiology for			terminate
+etiology of			terminate
+except			terminate
+for this reason			terminate
+however			terminate
+involving			terminate
+nevertheless			terminate
+noted			terminate
+origin for			terminate
+origin of			terminate
+origins for			terminate
+origins of			terminate
+other possibilities of			terminate
+since			terminate
+source for			terminate
+source of			terminate
+sources for			terminate
+sources of			terminate
+sudden onset of			terminate
+though			terminate
+trigger event for			terminate
+was found			terminate
+which			terminate
+with			terminate
+yet			terminate
+and			terminate
+after	CONJ		terminate
+although	CONJ		terminate
+as	CONJ		terminate
+because	CONJ		terminate
+before	CONJ		terminate
+even if	CONJ		terminate
+even though	CONJ		terminate
+if	CONJ		terminate
+in order that	CONJ		terminate
+once	CONJ		terminate
+provided that	CONJ		terminate
+rather than	CONJ		terminate
+since	CONJ		terminate
+so that	CONJ		terminate
+than	CONJ		terminate
+that	CONJ		terminate
+though	CONJ		terminate
+unless	CONJ		terminate
+until	CONJ		terminate
+when	CONJ		terminate
+whenever	CONJ		terminate
+where	CONJ		terminate
+whereas	CONJ		terminate
+wherever	CONJ		terminate
+whether	CONJ		terminate
+while	CONJ		terminate
+why	CONJ		terminate
